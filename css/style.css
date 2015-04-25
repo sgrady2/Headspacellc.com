@@ -1,0 +1,329 @@
+@font-face {
+		font-family: tetraFont;
+		src: url('TETRA.otf');
+	}
+@font-face{
+		font-family: VaneraFont;
+		src: url('Venera.otf');
+	}
+
+h3{
+	font: 85px tetraFont;
+	margin:6% 8%;
+	color: #29252C;
+	white-space:nowrap;
+	
+	
+}
+#yellow {
+	width:200px;
+	height:55px;
+	position:absolute;
+}
+#banner{
+	background-color: white;
+	margin:0 0 0 0;
+	height: 90px;
+	width:100%;
+}
+#banner2{
+	background-color: steel;
+	height:75px;
+	width:100%;
+}
+
+#trippy{
+	right:0px;
+	height:105px;
+	width:500px;
+}
+#trigs {
+	position: absolute;
+	top:0px;
+	right:0px;
+}
+
+body {
+	background-image: url(images/bg.jpg);
+	background-size: 100%;
+	background-repeat: repeat;
+	color:#2e2e2e;
+	margin: 0;
+	padding:0;
+	
+
+}
+
+div.content {
+	border: 1px solid #fbfbfb;
+	border-radius: 8px;
+	background-color:#CDD8DD;
+	width:60%;
+	height:60%;
+	padding:2%;
+	margin:20px 20px auto;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    opacity:.97;
+
+
+}
+div.content1{
+	height:250%;
+	width:30%;
+	border: 1px solid #fbfbfb;
+	border-radius: 8px;
+	background-color:#91B6CD;
+	position:absolute;
+	top:183px;
+	right:1.5%;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    opacity:.97;
+}
+div.content2 {
+	border: 1px solid #fbfbfb;
+	border-radius: 8px;
+	background-color:#CDD8DD;
+	max-width:90%;
+	height:60%;
+	width:96%;
+	padding:2%;
+	margin:40px 20px auto;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    opacity:.97;
+
+}
+div.content3 {
+	border: 1px solid #fbfbfb;
+	border-radius: 8px;
+	background-color:#CDD8DD;
+	max-width:800px;
+	height:420px;
+	float:center;
+	width:96%;
+	padding:2%;
+	margin:5% 10%;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    opacity:.97;
+
+}
+div.text-center {
+
+	font-family: tetraFont;
+	font-size: 28px;
+}
+
+h6{
+	font-family: VeneraFont;
+	font-size: 22px;
+
+
+}
+
+#wrapper{
+
+}
+#leftone{
+	float:right;
+	margin:5% 0%;
+	background-color: white;
+	height:60%;
+	width:50%;
+	border-radius: 5px;
+}
+
+#lefttwo{
+	float:right;
+	margin:6% 1%;
+	background-color: white;
+	height:40%;
+	width:53.5%;
+	border-radius: 5px;
+}
+
+#leftthree{
+	display:inline-block;
+	float:right;
+	margin:5% 1%;
+	background-color: white;
+	height:40%;
+	width:53.5%;
+	border-radius: 5px;
+}
+a.posters img {
+	height:250px;
+	width:160px;
+}
+a.posters:hover > img{
+	width:500px;
+	height:650px;
+}
+.slider {
+  margin: 10px 0;
+  width: 510px; /* Update to your slider width */
+  height: 300px; /* Update to your slider height */
+  position: relative;
+  overflow: hidden;
+}
+
+.slider li {
+  display: none;
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+}
+nav {
+	font-family: tetraFont;
+	font-size:25px;
+	background-color: #29252C;
+	border-radius: 4px;
+	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+	color: #888;
+	display: block;
+	margin: 0px 0px 0px 0px;
+	overflow: hidden;
+	width: 100%; 
+	height:72px;
+}
+div.blockbanner{
+	margin:40px 0px;
+}
+nav ul {
+	margin: 8px 0px 0px 8.5%; 
+	padding: 0;
+
+}
+
+	nav ul li {
+		display: inline-block;
+		list-style-type: none;
+	 
+	}
+	
+		nav > ul > li > a {
+			color: #aaa;
+			display: block;
+			line-height: 56px;
+			padding: 0 24px;
+			text-decoration: none;
+		}
+
+nav > ul > li:hover {
+          background-color: rgb( 40, 44, 47 );
+        }
+
+        nav > ul > li:hover > a {
+          color: rgb( 255, 255, 255 );
+        }
+
+        nav > ul > li:hover > a > .caret {
+          border-top-color: rgb( 255, 255, 255 );
+        }
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form input[type="tel"],
+#contact-form input[type="url"],
+#contact-form textarea,
+#contact-form button[type="submit"] {
+	font:400 12px/12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#contact-form {
+	text-shadow:0 1px 0 #FFF;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	background:#F9F9F9;
+	padding:25px;
+}
+#contact-form h3 {
+	color:#991D57;
+	display:block;
+	font-size:28px;
+}
+#contact-form h4 {
+	margin:5px 0 15px;
+	display:block;
+	font-size:13px;
+}
+#contact-form label span {
+	cursor:pointer;
+	color:#91B6CD;
+	display:block;
+	margin:5px 0;
+	font-weight:900;
+}
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form input[type="tel"],
+#contact-form input[type="url"],
+#contact-form textarea {
+	width:100%;
+	box-shadow:inset 0 1px 2px #DDD, 0 1px 0 #FFF;
+	-webkit-box-shadow:inset 0 1px 2px #DDD, 0 1px 0 #FFF;
+	-moz-box-shadow:inset 0 1px 2px #DDD, 0 1px 0 #FFF;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	border-radius:5px;
+}
+#contact-form input[type="text"]:hover,
+#contact-form input[type="email"]:hover,
+#contact-form input[type="tel"]:hover,
+#contact-form input[type="url"]:hover,
+#contact-form textarea:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+#contact-form textarea {
+	height:100px;
+	max-width:100%;
+}
+#contact-form button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:#91B6CD;
+	background-image:linear-gradient(bottom, #91B6CD 0%, #91B6CD 52%);
+	background-image:-moz-linear-gradient(bottom, #91B6CD 0%, #91B6CD 52%);
+	background-image:-webkit-linear-gradient(bottom, #91B6CD 0%, #91B6CD 52%);
+	color:gray;
+	margin:0 0 5px;
+	padding:10px;
+	border-radius:5px;
+}
+#contact-form button[type="submit"]:hover {
+	background-image:linear-gradient(bottom, #CDD8DD 0%, #CDD8DD 52%);
+	background-image:-moz-linear-gradient(bottom, #CDD8DD 0%, #CDD8DD 52%);
+	background-image:-webkit-linear-gradient(bottom, #CDD8DD 0%, #CDD8DD 52%);
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+#contact-form button[type="submit"]:active {
+	box-shadow:inset 0 1px 3px rgba(0,0,0,0.5);
+}
+#contact-form input:focus,
+#contact-form textarea:focus {
+	outline:0;
+	border:1px solid #999;
+}
+::-webkit-input-placeholder {
+    color:#888;
+}
+:-moz-placeholder {
+    color:#888;
+}
+::-moz-placeholder {
+    color:#888;
+}
+:-ms-input-placeholder {
+    color:#888;
+}
+
+
